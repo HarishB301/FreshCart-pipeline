@@ -3,10 +3,7 @@ import argparse
 import json
 import pika
 
-
 EXCHANGE_NAME = "rapido-dispatch"
-
-
 def main():
     parser = argparse.ArgumentParser(
         description="Receive and validate RabbitMQ requests."
