@@ -1,4 +1,5 @@
 
+#Knn Model
 import pandas as pd
 
 from sklearn.neighbors import KNeighborsClassifier
@@ -86,7 +87,6 @@ def knn_model(df, *args, **kwargs):
         "decision_tree_accuracy": float(tree_accuracy),
         "comparison": comparison
     }
-
 
 @test
 def test_output(output, *args, **kwargs):
