@@ -16,6 +16,7 @@ def main():
     print(f"Starting driver: {args.name}")
     print(f"Binding pattern: {args.pattern}")
 
+
     connection = pika.BlockingConnection(
         pika.ConnectionParameters(
             host=args.host,
