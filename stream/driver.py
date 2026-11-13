@@ -1,4 +1,4 @@
-#This is Driver 
+
 import argparse
 import json
 import pika
@@ -8,6 +8,8 @@ def main():
     parser = argparse.ArgumentParser(
         description="Receive and validate RabbitMQ requests."
     )
+
+
     parser.add_argument("name", help="Driver name")
     parser.add_argument("pattern", help="RabbitMQ topic binding pattern")
     parser.add_argument("--host", default="localhost")
@@ -15,6 +17,7 @@ def main():
 
     print(f"Starting driver: {args.name}")
     print(f"Binding pattern: {args.pattern}")
+
 
 
     connection = pika.BlockingConnection(

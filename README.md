@@ -23,6 +23,7 @@ An end-to-end Data Engineering project demonstrating modern data workflows, incl
 3. **Part C – ML Orchestration (Mage):** Building and executing an automated Iris classification pipeline inside Mage AI.
 4. **Part D – Real-Time Streaming (RabbitMQ):** Dispatching and consuming live food order events asynchronously using RabbitMQ producer (`dispatcher`) and consumer (`driver`) scripts.
 
+
 ---
 
 ## Project Components
